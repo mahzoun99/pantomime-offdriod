@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:id="@+id/First"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="      Points Of First Group : 0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:id="@+id/Second"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="      Points Of Second Group : 0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp">
+        <TextView
+            android:id="@+id/Third"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="      Points Of Third Group : 0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp">
+        <TextView
+            android:id="@+id/Fourth"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="      Points Of Fourth Group : 0"
+            />
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="170dp">-->
+        <!--<TextView-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="18dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="      Points Of Fifth Group : 0"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="500dp">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/Exit"
+        android:textSize="15pt"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_red_light"
+        android:text="Exit"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/Next"
+        android:textSize="15pt"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_green_light"
+        android:text="Next"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
+
+</FrameLayout>
+</android.support.constraint.ConstraintLayout>

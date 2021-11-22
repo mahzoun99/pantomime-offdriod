@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/Wordtext"
+        android:text="kalame :|"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="120dp"
+        />
+
+    <TextView
+        android:id="@+id/Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="110dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:text="HH:MM:SS"
+        android:textColor="@android:color/white"
+        android:textSize="35dp" />
+    <Button
+        android:id="@+id/CAnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Done!   "
+        android:gravity="center"
+        android:textSize="23dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="135dp"
+        />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

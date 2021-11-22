@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:text="The Last Chosen One Will Be Considered!"/>
+        <Button
+            android:id="@+id/Things"
+            android:textAllCaps="false"
+            android:text="Things"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="200dp"
+            />
+        <Button
+            android:id="@+id/Sport"
+            android:textAllCaps="false"
+            android:text="Sport"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="500dp"/>
+        <Button
+            android:id="@+id/Animals"
+            android:textAllCaps="false"
+            android:text="Animals"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="200dp"
+            />
+        <Button
+            android:id="@+id/Film"
+            android:textAllCaps="false"
+            android:text="Film"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="100dp"
+            />
+
+        <Button
+            android:id="@+id/Points6"
+            android:textAllCaps="false"
+            android:text="6 points"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="200dp"
+            />
+        <Button
+            android:id="@+id/Points4"
+            android:text="4 points"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="90dp"
+            />
+
+
+        <Button
+            android:id="@+id/Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="550dp"
+            android:text="Play!"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
